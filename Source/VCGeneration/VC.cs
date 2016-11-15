@@ -1598,12 +1598,12 @@ namespace VC {
       callback.OnProgress("VCgen", 0, 0, 0.0);
       
       Stopwatch watch = new Stopwatch();
-      if (_print_time)
+/*      if (_print_time)
       {
           Console.WriteLine("Checking function {0}", impl.Name);
           watch.Reset();
           watch.Start();
-      }
+      }*/
 
       ConvertCFG2DAG(impl);
 
@@ -1752,10 +1752,17 @@ namespace VC {
       if (tmp_max_vc_cost >= 0) { 
         max_vc_cost = tmp_max_vc_cost;
       }
-
       Outcome outcome = Outcome.Correct;
 
-      // Report all recycled failing assertions for this implementation.
+    ///urij
+    if (CommandLineOptions.Clo.ExtractVC)
+    {
+        VCExtractor.Extractor.extract(impl);
+        return outcome;
+    }
+    //\urij
+
+            // Report all recycled failing assertions for this implementation.
       if (impl.RecycledFailingAssertions != null && impl.RecycledFailingAssertions.Any())
       {
         outcome = Outcome.Errors;
@@ -1978,11 +1985,11 @@ namespace VC {
 
       callback.OnProgress("done", 0, 0, 1.0);
 
-      if (_print_time)
+/*      if (_print_time)
       {
           watch.Stop();
           Console.WriteLine("Total time for this method: {0}", watch.Elapsed.ToString());
-      }
+      }*/
 
       return outcome;
     }

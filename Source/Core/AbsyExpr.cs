@@ -2196,7 +2196,11 @@ namespace Microsoft.Boogie {
       Contract.Invariant(tok != null);
     }
 
-    public TypeCoercion(IToken tok, Type type) {
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        public TypeCoercion(IToken tok, Type type) {
       Contract.Requires(type != null);
       Contract.Requires(tok != null);
       this.tok = tok;

@@ -87,7 +87,7 @@ namespace Microsoft.Boogie.SMTLib
                 // Look for the most recent version of Z3.
                 int minor = 0, major = 0;
                 string winner = null;
-                Regex r = new Regex(@"^Z3-(\d+)\.(\d+)$");
+                Regex r = new Regex(@"^[zZ]3-(\d+)\.(\d+).*$");
                 foreach (string d in z3Dirs)
                 {
                     string name = new DirectoryInfo(d).Name;
