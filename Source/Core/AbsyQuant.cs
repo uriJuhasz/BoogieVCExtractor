@@ -664,7 +664,9 @@ namespace Microsoft.Boogie {
     }
   }
 
+#pragma warning disable CS0659 // Type overrides Object.Equals(object o) but does not override Object.GetHashCode()
   public abstract class QuantifierExpr : BinderExpr {
+#pragma warning restore CS0659 // Type overrides Object.Equals(object o) but does not override Object.GetHashCode()
     public Trigger Triggers;
 
     static int SkolemIds = -1;

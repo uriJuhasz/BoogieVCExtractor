@@ -839,6 +839,7 @@ namespace Microsoft.Boogie {
     }
     public List<ConcurrentHoudiniOptions> Cho = new List<ConcurrentHoudiniOptions>();
 
+        public bool ExtractVC = false;
     protected override bool ParseOption(string name, CommandLineOptionEngine.CommandLineParseState ps) {
       var args = ps.args;  // convenient synonym
       switch (name) {
@@ -1571,7 +1572,11 @@ namespace Microsoft.Boogie {
               Z3ExecutableName = args[ps.i];
           }
           return true;
-
+        ///urij
+        case "extractVC":
+            ExtractVC = true;
+            return true;
+        //\urij
         case "cvc4exe":
 			if (ps.ConfirmArgumentCount(1)) {
 				CVC4ExecutablePath = args[ps.i];

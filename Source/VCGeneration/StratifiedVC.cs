@@ -1138,7 +1138,7 @@ namespace VC {
 
     public override Outcome VerifyImplementation(Implementation/*!*/ impl, VerifierCallback/*!*/ callback) {
       Debug.Assert(QKeyValue.FindBoolAttribute(impl.Attributes, "entrypoint"));
-      Debug.Assert(this.program == program);
+//      Debug.Assert(this.program == program);
 
       // Record current time
       var startTime = DateTime.UtcNow;
@@ -2876,7 +2876,7 @@ namespace VC {
 
       public override Outcome VerifyImplementation(Implementation/*!*/ impl, VerifierCallback/*!*/ callback)
       {
-          Debug.Assert(this.program == program);
+//          Debug.Assert(this.program == program);
 
           // Record current time
           var startTime = DateTime.UtcNow;

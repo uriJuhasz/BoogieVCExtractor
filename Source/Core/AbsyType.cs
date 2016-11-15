@@ -872,13 +872,17 @@ namespace Microsoft.Boogie {
       : base(Token.NoToken) {
       T = t;
     }
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
 
-    //-----------  Cloning  ----------------------------------
-    // We implement our own clone-method, because bound type variables
-    // have to be created in the right way. It is /not/ ok to just clone
-    // everything recursively.
+        //-----------  Cloning  ----------------------------------
+        // We implement our own clone-method, because bound type variables
+        // have to be created in the right way. It is /not/ ok to just clone
+        // everything recursively.
 
-    public override Type Clone(IDictionary<TypeVariable/*!*/, TypeVariable/*!*/>/*!*/ varMap) {
+        public override Type Clone(IDictionary<TypeVariable/*!*/, TypeVariable/*!*/>/*!*/ varMap) {
       //Contract.Requires(cce.NonNullElements(varMap));
       Contract.Ensures(Contract.Result<Type>() != null);
       // BasicTypes are immutable anyway, we do not clone
@@ -3066,8 +3070,11 @@ Contract.Requires(that != null);
       Contract.Invariant(Decl != null);
     }
 
-
-    public CtorType(IToken/*!*/ token, TypeCtorDecl/*!*/ decl, List<Type>/*!*/ arguments)
+    public override int GetHashCode()
+    {
+        return base.GetHashCode();
+    }
+        public CtorType(IToken/*!*/ token, TypeCtorDecl/*!*/ decl, List<Type>/*!*/ arguments)
       : base(token) {
       Contract.Requires(token != null);
       Contract.Requires(decl != null);
