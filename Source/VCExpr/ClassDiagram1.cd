@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExpr" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprContracts" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprLiteral" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprNAry" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAAAFAAiAAAAAFAAAEIAIAAAQAQAACACAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprVar" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAACAAAAQAAAAAAAAAAQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprBinder" Collapsed="true">
+    <Position X="24" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAAAAAAAABAAAAAAAAAAAAAQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprIntLit" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprRealLit" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprFloatLit" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprNAryContracts" Collapsed="true">
+    <Position X="9.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprNullary" Collapsed="true">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAQAAAAAAQAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprUnary" Collapsed="true">
+    <Position X="14" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAIQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprBinary" Collapsed="true">
+    <Position X="16.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAIQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprMultiAry" Collapsed="true">
+    <Position X="18.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAEAAAAAAAAAACAAAAAAAAAAIAAAAIQAQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprQuantifier" Collapsed="true">
+    <Position X="23" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAgAAAAgAAAAAAACAAAAIAAAABQAAAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.VCExprAST.VCExprLet" Collapsed="true">
+    <Position X="25.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAAAABAAiAAAAABAAAAAAIAAAEAQACAAAAA=</HashCode>
+      <FileName>VCExprAST.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

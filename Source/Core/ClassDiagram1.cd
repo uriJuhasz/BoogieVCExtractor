@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="Microsoft.Boogie.Absy" Collapsed="true">
+    <Position X="73.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQBAAAAAIASEAEQAAABAIAgAAAEAAAAAQAAQYAABQBA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.AbsyContracts" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Program" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DEAWAAACAUagAAAoIgBBITYIhgAIkAgAAARQQBEAALg=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Declaration" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAACAAAIAAAVAYAAQBAAACAABAAAEACAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.Requires" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAEAACAAAAAAABAIBAQAAgIAQAACAAQAAAAAAI=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.Ensures" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAEAACAAAAAAABAIBAQAAgIAQAACAAQAAAAAAI=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.TypedIdent" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAACAAAQAAABAIBQAAQAAAAAAASAQgAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Block" Collapsed="true">
+    <Position X="45.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAiAEACIgBAEAgBAIlAIABgBAAgAACAQAACAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Cmd" Collapsed="true">
+    <Position X="62.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAACAEAgAAAxBAAAAAAAAAAAABACAACQA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.AssignLhs" Collapsed="true">
+    <Position X="81.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAACAAAAABAAAAAAAAAAAQAABACAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TransferCmd" Collapsed="true">
+    <Position X="88.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Expr" Collapsed="true">
+    <Position X="105" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KBcAEDAQAADAAKBkAAAAMBIAACSEKgQhAQgAQRAYBAQ=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.QKeyValue" Collapsed="true">
+    <Position X="119.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAIABKAAACAAEQAgIBAIFAAAAAAAIAAAAAQAAIAABA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Trigger" Collapsed="true">
+    <Position X="122" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAABAAAACAAAAAgABAIBAAAACQAIQAEAAQAAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Type" Collapsed="true">
+    <Position X="135.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIhAFABAACBAgAmgAUQsbRCAgIAKOoBCYiQAgABADQ=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.DeclarationContracts" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Axiom" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAiAAAAAAAhAIBAIABABAQAACAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.NamedDeclaration" Collapsed="true">
+    <Position X="23" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAQAAAAEAAAAAAAQAAAAAAQ=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeCtorDecl" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAEAAAABAIBAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeSynonymDecl" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACiAAAAgAABBIBAAAQABAAAAAAAQAAABAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Variable" Collapsed="true">
+    <Position X="18.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAiACAAAAAgAIBAAAAAAAAAAAAAQAABAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.DeclWithFormals" Collapsed="true">
+    <Position X="30.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAIBAAygBQQAAAEoAMgAIAAAAAYAAAAAQQgAQBAE=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Constant" Collapsed="true">
+    <Position X="14" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAIAAACAAAAAAABAIBAAgAABAAAAAAAQAAAIAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.GlobalVariable" Collapsed="true">
+    <Position X="16.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Formal" Collapsed="true">
+    <Position X="18.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAgAAAAAAABAAAAAAAABQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.LocalVariable" Collapsed="true">
+    <Position X="20.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BoundVariable" Collapsed="true">
+    <Position X="23" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Function" Collapsed="true">
+    <Position X="28.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEBAAQAEABCAAAAAACBBMBAAAAABAAAAAAACAAAAAgA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Procedure" Collapsed="true">
+    <Position X="34.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAACAAAAACABAIBIAAAABAAAAAAAQAAACAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Implementation" Collapsed="true">
+    <Position X="36.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAGoAICECCBEDIEAsJAIVEIiICBTADAAhMSIAEgASA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.DatatypeConstructor" Collapsed="true">
+    <Position X="25.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAACAAAAAAABAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.DatatypeSelector" Collapsed="true">
+    <Position X="27.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.DatatypeMembership" Collapsed="true">
+    <Position X="29.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Macro" Collapsed="true">
+    <Position X="32" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Incarnation" Collapsed="true">
+    <Position X="20.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAACAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.LoopProcedure" Collapsed="true">
+    <Position X="34.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAQAAACAAAAAIAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.RE" Collapsed="true">
+    <Position X="50" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CmdContracts" Collapsed="true">
+    <Position X="54.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.YieldCmd" Collapsed="true">
+    <Position X="56.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAABAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CommentCmd" Collapsed="true">
+    <Position X="59" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAACAAAAAAABAIBAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.AssignCmd" Collapsed="true">
+    <Position X="61.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAQAACEAAAICABAIDAAAAAAAAAIAAAQAAAAIAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.StateCmd" Collapsed="true">
+    <Position X="63.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACIAAAAAABAIBAAAABAAAQAAAAQAAAAAAI=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.SugaredCmd" Collapsed="true">
+    <Position X="68" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAIAAAABAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.PredicateCmd" Collapsed="true">
+    <Position X="73.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAAAAAAAQAAAAAAAACAAQAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.HavocCmd" Collapsed="true">
+    <Position X="77" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAACAAAAAAABQIRAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.AtomicRE" Collapsed="true">
+    <Position X="47.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAIBAAAAAAAAAAAQAQAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CompoundRE" Collapsed="true">
+    <Position X="51" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Sequential" Collapsed="true">
+    <Position X="50" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAEAgFAABAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.Choice" Collapsed="true">
+    <Position X="52.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAABAAAAAAAAAIACAQAAAAAAA=</HashCode>
+      <FileName>Absy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.SugaredCmdContracts" Collapsed="true">
+    <Position X="65.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CallCommonality" Collapsed="true">
+    <Position X="69" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAogAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.ParCallCmd" Collapsed="true">
+    <Position X="68" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABABAAACAAAAAAABAIAAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.CallCmd" Collapsed="true">
+    <Position X="70.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASiBAAAACSABAADAABAIBAAgAAIAAAACAMRAAAAACA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.AssertCmd" Collapsed="true">
+    <Position X="72.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAgAAICAAAiAEABAIBAAAAAIAQAACAAAAAAAACA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.AssumeCmd" Collapsed="true">
+    <Position X="74.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAIBAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.AssignLhsContracts" Collapsed="true">
+    <Position X="79.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABACAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.SimpleAssignLhs" Collapsed="true">
+    <Position X="81.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAACAAAACQABAIBAAAAAAAAAAAQAQBACAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.MapAssignLhs" Collapsed="true">
+    <Position X="83.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAggAADCAAAACAABAIBAAAAAAAAAAAQAwBACAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TransferCmdContracts" Collapsed="true">
+    <Position X="86" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ReturnCmd" Collapsed="true">
+    <Position X="88.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.GotoCmd" Collapsed="true">
+    <Position X="90.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAABAABAAAAAAAIEAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ReturnExprCmd" Collapsed="true">
+    <Position X="88.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAABAIBAAAAAAAAAACAAQAAAAAAA=</HashCode>
+      <FileName>AbsyCmd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ExprContracts" Collapsed="true">
+    <Position X="92.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAIAQAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.LiteralExpr" Collapsed="true">
+    <Position X="95" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAhQ0AREJBAgIAEBMIQAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.IdentifierExpr" Collapsed="true">
+    <Position X="97.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAAgABAIBQAAABAIIQAAAAYAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.OldExpr" Collapsed="true">
+    <Position X="99.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAACAAAAAgABAIBAAAAAAIIQACAAQAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.NAryExpr" Collapsed="true">
+    <Position X="101.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAACCAAAAAgABBIBAAAAAAIIQAAAAQAAgEAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CodeExpr" Collapsed="true">
+    <Position X="104" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAAAAACAAAAAgABAIBAAAAAAIIQAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BvExtractExpr" Collapsed="true">
+    <Position X="106.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAACCAAAAggAFAIBAAAAAAIIQAAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BvConcatExpr" Collapsed="true">
+    <Position X="108.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACAAAAEgABAIBAAAAAAIoQQAAAQAAAAAAA=</HashCode>
+      <FileName>AbsyExpr.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BinderExpr" Collapsed="true">
+    <Position X="114" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAACDAEBAAgAABABAYBBAAAIQAAAAQCAAIQAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.Boogie.BinderExprContracts" Collapsed="true">
+    <Position X="110.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.QuantifierExpr" Collapsed="true">
+    <Position X="114" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAACAAAAAgAAAIAAIDACAIAAAQAAACAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.LambdaExpr" Collapsed="true">
+    <Position X="117.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAADAAAAAAABAIAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ForallExpr" Collapsed="true">
+    <Position X="113" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ExistsExpr" Collapsed="true">
+    <Position X="115.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyQuant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeContracts" Collapsed="true">
+    <Position X="124.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgACgAAAABQAAAAAAIAAAAAAAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BasicType" Collapsed="true">
+    <Position X="126.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAGgABAEBQAAAAAAIAAAQAQAgAFABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.FloatType" Collapsed="true">
+    <Position X="128.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgAGgAXAABQAAAAAAIIAEAAAAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BvType" Collapsed="true">
+    <Position X="131" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAgAGgABAARQAAAAAAIIAAAAAAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.UnresolvedTypeIdentifier" Collapsed="true">
+    <Position X="133.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABBAAAAAAAAgACgABAABQAAAAAIKAAIAAQAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeVariable" Collapsed="true">
+    <Position X="135.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgACgABAgJQAAAAAAIAAAAAQAiABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeProxy" Collapsed="true">
+    <Position X="138.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABAAAAAgACgABQk5QACAAAKK4ACQgUAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.TypeSynonymAnnotation" Collapsed="true">
+    <Position X="142.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgACgABAkZUAAAAAKKoAKQiYAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.CtorType" Collapsed="true">
+    <Position X="144.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAgACgABAABwAAAAACIgAIAAYAgCBABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.MapType" Collapsed="true">
+    <Position X="146.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABACAAAgACgABAABQAAQIAAIAAKAgQAgABABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.ConstrainedProxy" Collapsed="true">
+    <Position X="138.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.BvTypeProxy" Collapsed="true">
+    <Position X="137.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAABAAAAgACAABAgUAAAAAAAAIAAAAQAAAAABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.Boogie.MapTypeProxy" Collapsed="true">
+    <Position X="140" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABAAAAAkAAAABAABAAAAIAAAAACQgQAAAAABA=</HashCode>
+      <FileName>AbsyType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
