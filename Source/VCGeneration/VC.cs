@@ -1757,7 +1757,7 @@ namespace VC {
     ///urij
     if (CommandLineOptions.Clo.ExtractVC)
     {
-        VCExtractor.Extractor.extract(impl);
+        VCExtractor.Extractor.extract(impl,program);
         return outcome;
     }
     //\urij
