@@ -9,6 +9,7 @@ namespace VCExtractor
         {
             Console.WriteLine("============Boogie extractor - start");
             Console.WriteLine("   Implementation: {0}", impl.Name);
+//            var axioms = 
             Console.WriteLine("============Boogie extractor - end");
         }
     }
